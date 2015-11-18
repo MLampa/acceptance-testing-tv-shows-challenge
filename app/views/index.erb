@@ -1,0 +1,7 @@
+<h1>List of Shows</h1>
+
+<ul>
+  <% @tv_shows.each do |show| %>
+  <li><%= show[:title]%> (<%= show[:network] %>)</li>
+  <% end %>
+</ul>
